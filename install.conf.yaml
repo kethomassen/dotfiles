@@ -6,7 +6,6 @@
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
-    ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
 

@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="alanpeabody"
@@ -29,6 +29,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+alias gcc=gcc-8
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
