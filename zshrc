@@ -8,7 +8,9 @@ export ZSH="/Users/kristian/.oh-my-zsh"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="alanpeabody"
-plugins=( zsh-syntax-highlighting )
+#plugins=( zsh-syntax-highlighting )
+
+#export PROMPT="%{$fg[blue]%}%~%{$reset_color%}$ "
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -64,6 +66,7 @@ plugins=( zsh-syntax-highlighting )
 plugins=(
   git
   zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
