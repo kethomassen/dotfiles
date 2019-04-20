@@ -2,7 +2,7 @@
 
 - link:
     ~/.bash_profile: bash_profile
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig: git/gitconfig
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv

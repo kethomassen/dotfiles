@@ -1,0 +1,16 @@
+cask_args appdir: "/Applications"
+
+tap "homebrew/cask"
+
+# Binaries
+brew 'bat'
+brew 'coreutils'
+brew 'htop'
+brew 'tree'
+brew 'zsh'
+brew 'zsh-completions'
+
+# macos apps
+cask "docker"
+cask "iterm2"
+cask "google-chrome"

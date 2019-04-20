@@ -5,9 +5,6 @@ export PATH
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-source /Users/kristian/.rvm/scripts/rvm
-export GEM_HOME=$HOME/gems
-export PATH=$HOME/gems/bin:$PATH
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
